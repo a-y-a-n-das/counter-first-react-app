@@ -3,8 +3,9 @@
 A minimal React + Vite project: a simple counter with clean, modern styling.
 
 ## Preview
+<img width="1118" height="768" alt="image" src="https://github.com/user-attachments/assets/fcaadc20-0ed8-4995-9f11-fcda2c170e1d" />
 
-Increment and decrement the count with responsive UI and subtle animations.
+Increment and decrement the count.
 
 ## Getting Started
 
@@ -20,13 +21,7 @@ npm install
 npm run dev
 ```
 
-3. Build for production:
-
-```bash
-npm run build
-```
-
-4. Preview the production build (optional):
+3. Preview the production build (optional):
 
 ```bash
 npm run preview
@@ -36,7 +31,6 @@ npm run preview
 
 - `dev`: Start Vite dev server
 - `build`: Create production build
-- `preview`: Preview production build locally
 
 ## Tech Stack
 
@@ -53,10 +47,4 @@ src/
   main.jsx      # App entry
 ```
 
-## Customize Styles
 
-Update CSS variables in `src/index.css` under `:root` to change theme colors (e.g., `--primary`, `--bg`, `--text`). Component-specific styles live in `src/App.css`.
-
-## License
-
-MIT
