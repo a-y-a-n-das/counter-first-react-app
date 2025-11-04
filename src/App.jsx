@@ -5,15 +5,20 @@ import { useState } from "react"
 function App() {
   const [count, setCount] = useState(0);
   return (
-    <>
-      <h1>A Simple Counter App</h1>
-      <div>
-      <p>Count: {count} </p> 
-      
-      <button type='button' onClick={()=>{counter(setCount)}}>Increment</button>
-      <button type='button' onClick={()=> {counter(setCount, false)} }  style={{margin: "10px"}}>Decrement</button>
+    <div className="app">
+      <div className="card">
+        <h1>A Simple Counter App</h1>
+        <p className="count">Count: {count}</p>
+        <div className="actions">
+          <button className="btn" type='button' onClick={()=>{counter(setCount)}}>
+            Increment
+          </button>
+          <button className="btn btn-secondary" type='button' onClick={()=> {counter(setCount, false)} }>
+            Decrement
+          </button>
+        </div>
       </div>
-    </>
+    </div>
   )
 }
 
